@@ -19,6 +19,9 @@ extern bool fTestNet;
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
     return testnet ? 23130 : 13130;
+    
+    vSeeds.push_back(CDNSSeedData("151.106.0.98", "151.106.0.98"));
+    vSeeds.push_back(CDNSSeedData("172.245.244.33", "172.245.244.33"))
 }
 
 
